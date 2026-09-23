@@ -1,0 +1,44 @@
+{
+  "id": "5100000000000000001",
+  "namespace": "usertypes",
+  "name": "BusinessConcept",
+  "entityIdParts": [
+    "5100000000000000011"
+  ],
+  "displayNamePropertyId": "5100000000000000013",
+  "namespaceType": "Custom",
+  "visibility": "Visible",
+  "properties": [
+    {
+      "id": "5100000000000000011",
+      "name": "BusinessConceptId",
+      "valueType": "String"
+    },
+    {
+      "id": "5100000000000000012",
+      "name": "ConceptGroupId",
+      "valueType": "String"
+    },
+    {
+      "id": "5100000000000000013",
+      "name": "CanonicalName",
+      "valueType": "String"
+    },
+    {
+      "id": "5100000000000000014",
+      "name": "Synonyms",
+      "valueType": "String"
+    },
+    {
+      "id": "5100000000000000015",
+      "name": "Description",
+      "valueType": "String"
+    },
+    {
+      "id": "5100000000000000016",
+      "name": "IsActive",
+      "valueType": "Boolean"
+    }
+  ],
+  "timeseriesProperties": []
+}

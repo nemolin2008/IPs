@@ -1,0 +1,21 @@
+{
+  "id": "8c595aca-7460-4506-c6ab-b2356abc2044",
+  "dataBindingTable": {
+    "sourceType": "LakehouseTable",
+    "workspaceId": "<WORKSPACE_ID>",
+    "itemId": "<LAKEHOUSE_ID>",
+    "sourceTableName": "sales_orders"
+  },
+  "sourceKeyRefBindings": [
+    {
+      "sourceColumnName": "CustomerId",
+      "targetPropertyId": "5100000000000000021"
+    }
+  ],
+  "targetKeyRefBindings": [
+    {
+      "sourceColumnName": "SalesOrderId",
+      "targetPropertyId": "5100000000000000031"
+    }
+  ]
+}
