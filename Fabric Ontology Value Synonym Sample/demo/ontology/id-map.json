@@ -1,0 +1,45 @@
+{
+  "ontologyName": "BusinessConceptDemoNoSchema",
+  "entityTypes": {
+    "BusinessConcept": {
+      "id": "5100000000000000001",
+      "properties": {
+        "BusinessConceptId": "5100000000000000011",
+        "ConceptGroupId": "5100000000000000012",
+        "CanonicalName": "5100000000000000013",
+        "Synonyms": "5100000000000000014",
+        "Description": "5100000000000000015",
+        "IsActive": "5100000000000000016"
+      }
+    },
+    "Customer": {
+      "id": "5100000000000000002",
+      "properties": {
+        "CustomerId": "5100000000000000021",
+        "CustomerName": "5100000000000000022",
+        "Region": "5100000000000000023"
+      }
+    },
+    "SalesOrder": {
+      "id": "5100000000000000003",
+      "properties": {
+        "SalesOrderId": "5100000000000000031",
+        "OrderDate": "5100000000000000032",
+        "OrderStatus": "5100000000000000033",
+        "GrossMerchandiseValue": "5100000000000000034",
+        "NetRevenue": "5100000000000000035"
+      }
+    }
+  },
+  "bindings": {
+    "BusinessConcept_static": "5f262797-413d-42d3-9378-8f8502378971",
+    "Customer_static": "6a3738a8-524e-43e4-a489-9013489a0822",
+    "SalesOrder_static": "7b4849b9-635f-44f5-b59a-a12459ab1933"
+  },
+  "relationshipTypes": {
+    "places": {
+      "id": "5100000000000000101",
+      "contextualizationId": "8c595aca-7460-4506-c6ab-b2356abc2044"
+    }
+  }
+}

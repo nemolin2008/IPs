@@ -1,0 +1,38 @@
+{
+  "id": "5f262797-413d-42d3-9378-8f8502378971",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "BusinessConceptId",
+        "targetPropertyId": "5100000000000000011"
+      },
+      {
+        "sourceColumnName": "ConceptGroupId",
+        "targetPropertyId": "5100000000000000012"
+      },
+      {
+        "sourceColumnName": "CanonicalName",
+        "targetPropertyId": "5100000000000000013"
+      },
+      {
+        "sourceColumnName": "Synonyms",
+        "targetPropertyId": "5100000000000000014"
+      },
+      {
+        "sourceColumnName": "Description",
+        "targetPropertyId": "5100000000000000015"
+      },
+      {
+        "sourceColumnName": "IsActive",
+        "targetPropertyId": "5100000000000000016"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "<WORKSPACE_ID>",
+      "itemId": "<LAKEHOUSE_ID>",
+      "sourceTableName": "business_concept_synonyms"
+    }
+  }
+}

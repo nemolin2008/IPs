@@ -1,0 +1,12 @@
+{
+  "namespace": "usertypes",
+  "id": "5100000000000000101",
+  "name": "places",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "5100000000000000002"
+  },
+  "target": {
+    "entityTypeId": "5100000000000000003"
+  }
+}

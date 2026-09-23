@@ -1,0 +1,26 @@
+{
+  "id": "6a3738a8-524e-43e4-a489-9013489a0822",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "CustomerId",
+        "targetPropertyId": "5100000000000000021"
+      },
+      {
+        "sourceColumnName": "CustomerName",
+        "targetPropertyId": "5100000000000000022"
+      },
+      {
+        "sourceColumnName": "Region",
+        "targetPropertyId": "5100000000000000023"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "<WORKSPACE_ID>",
+      "itemId": "<LAKEHOUSE_ID>",
+      "sourceTableName": "customers"
+    }
+  }
+}

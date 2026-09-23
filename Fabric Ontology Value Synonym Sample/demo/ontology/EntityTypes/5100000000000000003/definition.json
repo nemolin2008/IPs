@@ -1,0 +1,39 @@
+{
+  "id": "5100000000000000003",
+  "namespace": "usertypes",
+  "name": "SalesOrder",
+  "entityIdParts": [
+    "5100000000000000031"
+  ],
+  "displayNamePropertyId": "5100000000000000031",
+  "namespaceType": "Custom",
+  "visibility": "Visible",
+  "properties": [
+    {
+      "id": "5100000000000000031",
+      "name": "SalesOrderId",
+      "valueType": "String"
+    },
+    {
+      "id": "5100000000000000032",
+      "name": "OrderDate",
+      "valueType": "DateTime"
+    },
+    {
+      "id": "5100000000000000033",
+      "name": "OrderStatus",
+      "valueType": "String"
+    },
+    {
+      "id": "5100000000000000034",
+      "name": "GrossMerchandiseValue",
+      "valueType": "Double"
+    },
+    {
+      "id": "5100000000000000035",
+      "name": "NetRevenue",
+      "valueType": "Double"
+    }
+  ],
+  "timeseriesProperties": []
+}

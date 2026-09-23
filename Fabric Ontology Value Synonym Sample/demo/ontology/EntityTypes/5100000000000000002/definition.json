@@ -1,0 +1,29 @@
+{
+  "id": "5100000000000000002",
+  "namespace": "usertypes",
+  "name": "Customer",
+  "entityIdParts": [
+    "5100000000000000021"
+  ],
+  "displayNamePropertyId": "5100000000000000022",
+  "namespaceType": "Custom",
+  "visibility": "Visible",
+  "properties": [
+    {
+      "id": "5100000000000000021",
+      "name": "CustomerId",
+      "valueType": "String"
+    },
+    {
+      "id": "5100000000000000022",
+      "name": "CustomerName",
+      "valueType": "String"
+    },
+    {
+      "id": "5100000000000000023",
+      "name": "Region",
+      "valueType": "String"
+    }
+  ],
+  "timeseriesProperties": []
+}
